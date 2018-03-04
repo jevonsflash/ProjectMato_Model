@@ -40,7 +40,7 @@
     <Compile Include="ArtistInfo.cs" />
     <Compile Include="BackgroundTable.cs" />
     <Compile Include="BaseTable.cs" />
-    <Compile Include="Billboard.cs" />
+    <Compile Include="BillboardInfo.cs" />
     <Compile Include="GecimeSearchInfo.cs" />
     <Compile Include="Interface\IBasicInfo.cs" />
     <Compile Include="Interface\IClueObject.cs" />

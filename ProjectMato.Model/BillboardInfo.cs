@@ -1,6 +1,6 @@
 ﻿namespace ProjectMato.Model
 {
-  public class Billboard : MusicCollectionInfo
+  public class BillboardInfo : MusicCollectionInfo
   {
     public string OnlineId { get; set; }
   }
