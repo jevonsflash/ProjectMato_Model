@@ -11,6 +11,9 @@ namespace ProjectMato.Interface
     {
         event EventHandler<bool> OnPlayFinished;
         event EventHandler OnRebuildMusicInfosFinished;
+        event EventHandler<double> OnProgressChanged;
+        event EventHandler<bool> OnPlayStatusChanged;
+
         int[] ShuffleMap { get; }
         List<MusicInfo> MusicInfos { get; }
         int LastIndex { get; }
