@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using SQLite.Net.Attributes;
+using SQLite;
 
 namespace ProjectMato.Model
 {
