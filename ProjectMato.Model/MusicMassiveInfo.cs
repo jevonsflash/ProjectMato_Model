@@ -4,6 +4,11 @@ namespace ProjectMato.Model
 {
 	public class MusicMassiveInfo : ObservableObject
 	{
+		public MusicMassiveInfo()
+		{
+			this.AlbumInfos=new List<AlbumInfo>();
+			this.Title = "...";
+		}
 		public int Id
 		{
 			get;
